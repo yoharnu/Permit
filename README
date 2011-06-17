@@ -1,0 +1,9 @@
+name: Permit
+main: org.yoharnu.Permit.Permit
+version: 0.1
+author: yoharnu
+commands:
+   permit:
+    description: Shows a player's IP.
+    usage: |
+           /permit issue/view/revoke <player> (permit)
