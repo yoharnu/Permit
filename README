@@ -1,6 +1,6 @@
 name: Permit
 main: org.yoharnu.Permit.Permit
-version: 0.1
+version: 0.1.2
 author: yoharnu
 commands:
    permit:

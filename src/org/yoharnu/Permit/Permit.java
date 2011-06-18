@@ -52,7 +52,7 @@ public class Permit extends JavaPlugin {
 		}
 		if (sender instanceof Player) {
 			Player player = (Player) sender;
-			if (commandName.equalsIgnoreCase("permit")){
+			if (commandName.equalsIgnoreCase("permit") && player.isOp()){
 				String holder = args[1].toLowerCase();
 				if(!this.getDataFolder().exists()){
 					this.getDataFolder().mkdirs();
